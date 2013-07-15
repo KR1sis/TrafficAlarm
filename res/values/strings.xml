@@ -2,4 +2,10 @@
 
     <string name="app_name">TrafficAlarm</string>
 
+    <string name="my_first_widget">My First Widget</string>
+
+    <string name="configure_widget_caption">Configure widget here</string>
+
+    <string name="ok_button">OK</string>
+
 </resources>

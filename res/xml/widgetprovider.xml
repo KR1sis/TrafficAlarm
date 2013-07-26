@@ -3,5 +3,6 @@
     android:minWidth="40dp"
     android:minHeight="40dp"
     android:updatePeriodMillis="86400000"
-    android:initialLayout="@layout/widgetlayout">    
+    android:initialLayout="@layout/widgetlayout"
+    android:configure="com.kr1sinc.trafficalarm.WidgetConfig">
 </appwidget-provider>

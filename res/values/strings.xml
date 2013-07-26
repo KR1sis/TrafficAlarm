@@ -8,4 +8,8 @@
 
     <string name="ok_button">OK</string>
 
+    <string name="widgetTb">Введить текст для виджета здесь</string>
+    <color name="WidgetBackgroundColor">#000000</color>
+    <string name="showyandexmap">ShowYandexMap</string>
+
 </resources>

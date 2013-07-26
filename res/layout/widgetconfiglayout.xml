@@ -11,15 +11,26 @@
         android:text="@string/configure_widget_caption"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleHorizontal"
+    <EditText
+        android:id="@+id/widgetTextEdit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/widgetTb" >
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ok_button" />
+
+    <Button
+        android:id="@+id/btnShowYandexMap"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showyandexmap" />
+
 </LinearLayout>
